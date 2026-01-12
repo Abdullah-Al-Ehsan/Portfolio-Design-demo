@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     /*keep padding inside box*/
+}
+
+
+/*shared style*/
+.logo h2{
+    font-size: 45px;
+}
+.logo-color{
+    color: rgb(226, 80, 43);
+}
+
+
+.btn{
+    background-color: coral;
+    border: none;
+    padding: 18px 35px 19px 36px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+
+/*main stlye*/
+
+.header{
+    font-family: sans-serif;
+    background-color: bisque;
+    padding-top: 51px;
+}
+
+.navigation{
+
+    width: 74%;   /* nav width/viewport */    
+    border: 1px solid red;
+    margin: 0px auto;      /* take margin autometic*/
+    display: flex;         /* side by side */
+    justify-content: space-between;   
+}
+ nav .menu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;    /* remove bullets*/
+    gap: 51px;
+    align-items: center;
+ }
+
