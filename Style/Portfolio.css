@@ -21,6 +21,7 @@
     border-radius: 10px;
     font-size: 20px;
     color: aliceblue;
+    cursor: pointer;
 }
 
 
@@ -30,6 +31,10 @@
     font-family: sans-serif;
     background-color: bisque;
     padding-top: 51px;
+    /*now adding bg image*/
+    background: url("../images/developer.png"), url("../images/header_bg.png"), bisque;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 
 .navigation{
@@ -48,3 +53,31 @@
     align-items: center;
  }
 
+#banner{
+    margin: 46px 38px 40px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner #banner-content h2{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 13px;
+}
+
+#banner #banner-content h1{
+    font-size: 85px;
+    margin-bottom: 13px;
+}
+
+#banner #banner-content p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 14px;
+}
+
+#banner #banner-image {
+     width: 584px;
+     height: 676px;
+}
