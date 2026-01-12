@@ -25,6 +25,16 @@
 }
 
 
+.section-heading{
+    max-width: 830px;
+    text-align: center;
+}
+
+
+
+
+
+
 /*main stlye*/
 
 .header{
@@ -80,4 +90,46 @@
 #banner #banner-image {
      width: 584px;
      height: 676px;
+}
+
+#about{
+    margin-top: 130px;
+}
+
+#about .about-container{
+
+    width: 71%;/*width: 1140px;*/
+    max-width: 1140px;   /*can't exceed 1140px, no matter how large screen*/
+    height: 550px;
+    padding-top: 131px;
+    background-color: bisque;
+    margin: 0 auto;
+    text-align: center;
+    padding: 131px 156px;
+}
+
+.section-heading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-container .info-card{
+    font-size: 15px;
+}
+
+.about-info .info-card h2{
+    color: gray;
+    font-size: 15px;
 }
